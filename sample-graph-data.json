@@ -1,0 +1,1000 @@
+{
+  "nodes": [
+    {
+      "id": "('Researcher', '0000-0003-0427-0369')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'The role of complement dysregulation in AMD mouse models')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('Publisher', 'Advances in Experimental Medicine and Biology')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-7290-4496')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'Potential Health Benefits of Blackcurrants')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Phytochemicals')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Clinical Nutrition Studies')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Pistachios beneficially affect multiple lipid and apolipoprotein CVD risk factors')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Anthocyanins and Cancer Prevention')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Genotype and ripening method affect carotenoid content and bio-accessibility in banana')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'FOOD & FUNCTION')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Exploring the Contribution of (Poly)phenols to the Dietary Exposome Using High Resolution Mass Spectrometry Untargeted Metabolomics')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'MOLECULAR NUTRITION & FOOD RESEARCH')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Cocoa Extract Exerts Sex-Specific Effects in an Aggressive Hyper-Glycemia Model: A Pilot Study')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Boosting the Bioaccessibility of Dietary Bioactives by Delivery as Protein-Polyphenol Aggregate Particles')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'JOURNAL OF AGRICULTURAL AND FOOD CHEMISTRY')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'The berry health tool chest - an evidence map and interactive resource')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'NUTRITION REVIEWS')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Microbial Metabolites of Flavanols in Urine are Associated with Enhanced Anti-Proliferative Activity in Bladder Cancer Cells In Vitro')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'NUTRITION AND CANCER-AN INTERNATIONAL JOURNAL')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Influence of simulated food and oral processing on carotenoid and chlorophyll in vitro bioaccessibility among six spinach genotypes')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Supplemental treatment options for diabetes: how flavanol metabolites improve beta-cell function')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'FASEB JOURNAL')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Terms and nomenclature used for plant-derived components in nutrition and related research: efforts toward harmonization')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Increased Plasma Levels of Gut-Derived Phenolics Linked to Walking and Running Following 2-Weeks Flavonoid Supplementation')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Elucidating metabolic signatures of phytochemical consumption')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'A moderate-fat diet with pistachios lowers small-dense LDL and improves markers of insulin sensitivity in subjects with moderately-elevated cholesterol Levels')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Dose-Related Effects of Pistachios on Emerging CVD Risk Factors in Moderately Hypercholesterolemic Individuals')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Proceedings of Experimental Biology 2011')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Effect of acute fish oil and soy isoflavone supplementation on postprandial serum triglycerides and biomarkers of oxidative stress in overweight or obese, hypertriglyeridemic men')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'The FASEB Journal')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Pistachios reduce serum oxidized LDL and increase serum antioxidant levels')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Inflammatory status modifies the actions of n3 fatty acids on vascular function')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Researcher', '0000-0002-1290-1100')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-8307-144X')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-2615-5345')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'The Molecular Basis of Touch Sensation As Modeled in Caenorhabditis elegans')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('Researcher', '0000-0002-8592-9753')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'Reducing Alcohol Misuse and Promoting Treatment Initiation Among Veterans Through a Brief Internet-Based Intervention: Protocol for a Randomized Controlled Trial (Preprint)')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Researcher', '0000-0002-3146-4524')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-5116-1427')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-2124-6272')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-8099-3863')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'A Potential Novel Probiotic Strain and its Comparative Antagonism Evaluation with a Multi-Strain Probiotic Combination along with an Innovative Approach for Quantifying the Viable Microbiota')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Interfacial Biosensing: Direct Biosensing of Biomolecules at the Bare Metal Interface')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Reference Module in Chemistry, Molecular Sciences and Chemical Engineering')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Methylsorb: A simple method for quantifying DNA methylation using gold-DNA affinity interaction')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'International Nanomedicine Conference')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Methylsorb: A simple method for quantifying DNA methylation using DNA-gold affinity interactions')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', '8th International Conference on Electrical and Computer Engineering: Advancing Technology for a Better Tomorrow, ICECE 2014')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-0133-8444')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'West Nile Fever')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('Publisher', 'CRC Press eBooks')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-0968-8721')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'Rayspread: A virtual laboratory for rapid BRF simulations over 3-D plant canopies')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'A Global Vegetation Index for SeaWiFS: Design and Applications')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Exploitation of Surface Albedo Derived From the Meteosat Data to Characterize Land Surface Changes')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Preface')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Remote Sensing and Climate Modeling: Synergies and Limitations')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('Publisher', 'Kluwer Academic Publishers, Dordrecht')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('BookPublication', 'A New Approach to Characterize Global Land Surfaces: Preliminary Results from AVHRR Data')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Biomass Burning and its Inter-Relationships with the Climate System')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Interactions between biomass burning and climate: Conclusions drawn from the Workshop')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Observing Land From Space: Science, Customers and Technology')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Summary and Conclusions')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'The Contribution of Remote Sensing Technologies and Algorithms to Land Surface Processes Studies')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Using Current and Future Remote Sensing Systems in Natural Hazard Management')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Geobotany: Vegetation Mapping for Earth Sciences')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Design and Evaluation of Parametric Bidirectional Reflectance Factor Models')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Identification of a Particular Tropical Forest Environment on the Basis of Simulated NOAA-AVHRR Reflectance Factors')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Presentation and Application of an Advanced Model for the Scattering of Light by Vegetation in the Solar Domain')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Recent advances in algorithm development to extract information from AVHRR data')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Constraining a climate-driven vegetation model with satellite data')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Biosphere modeling for climate studies')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Retrieving canopy properties from remote sensing measurements')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Scientific issues and instrumental opportunities in remote sensing and high resolution spectrometry')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Extracting surface properties from satellite data in the visible and near-infrared wavelengths')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Monitoring global tropical deforestation: a challenge for remote sensing')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Bidirectional reflectance and surface albedo: physical modeling and inversion')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Atmospheric chemistry-climate interactions')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Biosphere-Climate Interactions During the Past 18,000 Years: Towards a Global Model of the Terrestrial Biosphere')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Land surface processes in climate models: Status and prospects')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'The United Nations and the issue of desertification')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Wind and water erosion in perspective')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Another look at the concept of desertification')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('BookPublication', 'Some impacts of desertification processes on the local and regional climate')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Responses to Reviewers #1 and #2')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Final comments from the Authors')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Improving the usability of the MISR L1B2 Georectified Radiance Product (2000–present) in land surface applications')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Response to Anonymous Reviewer #2')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Response to Anonymous Reviewer #1')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', \"Response to Catherine Moroney's comments and questions on updating the MISR RCCM product\")",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Replacing Missing Values in the Standard MISR Radiometric Camera-by-Camera Cloud Mask (RCCM) Data Product')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Regional drought monitoring using phenologically-tuned biomass production estimates from: Spotvegetation fapar')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Ten years of MISR observations from Terra: Looking back, ahead, and in between')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Designing an integrated global monitoring system for drylands')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Detailed structural characterisation of the savanna flux site at Skukuza, South Africa')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Using MISR full spatial resolution level 1B2 data to characterize the savannah environment around the Skukuza CSIR research site')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Using JRC-FAPAR products to characterize growing seasons')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Fluorescence explorer (FLEX): An optimised payload to map vegetation photosynthesis from space')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Analysis of multi-angular data to retrieve indicators of ecosystem structure')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Characterisation of land surface structure using multi-directional MISR/Terra observations')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Meris Global Vegetation Index: Evaluation and performance')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Monitoring FAPAR over Land Surfaces with Remote Sensing Data')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Understanding vegetation response to climate variability from space: Recent advances towards the SPECTRA Mission')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Traceable Radiometry Underpinning Terrestrial- and Helio- Studies (TRUTHS)')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Understanding vegetation response to climate variability from space: The scientific objectives, the approach and the concept of the SPECTRA mission')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Detection of Land Surface Structure and Subpixel scale Heterogeneity from Multiangle Data')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Exploitation of surface albedo derived from the meteosat data to characterize land surface changes')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Joint retrieval of vegetation structure and photosynthetic activity from MISR')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Monitoring boreal forest resources in northern Europe')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'SeaWiFs for global biosphere applications')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'The Observational Requirements of the SPECTRA Mission')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'ENVISAT-1 medium resolution imaging spectrometer processor and data products')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Exploitation of angular signatures to calibrate geostationary satellite solar channels')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Identification of dense boreal forest on the basis of simulated NOAA-AVHRR reflectance factors')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Identification of surface areas to represent a suitable surface boundary condition for atmospheric radiative transfer analysis')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Parametric surface bidirectional reflectance factor models for atmospheric radiative transfer modeling')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Modeling plant leaf bidirectional reflectance and transmittance with a 3-D ray tracing approach')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Modeling the scattering of light in three-dimensional canopies: Contribution of a Monte Carlo ray tracing approach')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Analyzing spatio-temporal characteristics of surface parameters from NOAA AVHRR data')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', \"Modeling Spectralon's bidirectional reflectance for in-flight calibration of Earth-orbiting sensors\")",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Recent Advances in Sensors, Radiometric Calibration, and Processing of Remotely Sensed Data, SPIE 1938')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'A Comparative Study of Optimization Methods for the Retrieval of Quantitative Information from Satellite Data')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'European Commission, Joint Research Centre')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Analysis of the Spatio-Temporal Information Content of a Multi-Temporal AVHRR-HRPT Data Set Over Southern Mali')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', \"5th AVHRR Data Users' Meeting, Tromso, Norway, 25-28 June 1991\")",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Long Term AVHRR Data Sets for Global Environmental Studies')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Remote sensing earth surfaces to address global change issues: a review of the research programme of the institute for remote sensing applications')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'The Institute for Remote Sensing Applications Contribution to the Global Change Research Programme')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', '16th Annual Conference of the Remote Sensing Society, University College of Swansea, 19-21 September 1990')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Bidirectional Reflectance and Albedo at the Surface: Parameterization, Modeling and Inversion')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', \"'Physical Measurements and Signatures in Remote Sensing', Courchevel, France, January 14-18, 1990\")",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Study of Surface Properties Using Remote Sensing Data Collected in the Short Wavelengths')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'COSPAR XXVIII Plenary Meeting and Associated Activities, ICSU, The Hague, The Netherlands, 25 June--6 July')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Surface Anisotropy and its Implication for NDVI')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Workshop on the Use of Satellite-Derived Vegetation Indices in Weather and Climate Prediction Models, NOAA, Camp Springs, MD, 26--27 February 1990')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'A Physically-Based Model for the NDVI')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', \"4th AVHRR Data Users' Meeting, Rothenburg, Federal Republic of Germany, 5-8 September 1989\")",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'The Role of Atmospheric Chemistry in Solar-Terrestrial Relations')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'SCOSTEP Symposium held during the XXVII COSPAR Plenary Meeting')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'A glossary on the environmental impact of a nuclear war')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Researcher', '0000-0002-1472-2528')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'Intraneural ganglion cyst of the peroneal nerve at the lateral knee: A case report and literature review')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'RRNMF Neuromuscular Journal')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-5245-8254')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-8350-6407')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-0567-2562')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-8347-6466')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'Glaucoma and Quality of Life')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    },
+    {
+      "id": "('Publisher', 'Essentials in ophthalmology/Essentials ophthalmology')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-2402-0466')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0009-0002-6871-9081')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-7746-7475')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'Long-Term Outcomes of the Use of Fresh Frozen Costal Cartilage in Rhinoplasty')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'New York Regional Society of Plastic Surgeons (NYRSPS)- Annual Residents’ Night')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Revisiting the Dorsal Intercostal Artery Perforator (DICAP) Flap as a Viable Reconstructive Option for Traumatic Back Wounds')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'American Society for Plastic Surgeons (ASPS)- Plastic Surgery The Meeting')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Publisher', 'John Knowles Swinburne (JKS) Memorial Lecture- 21st Annual Meeting')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Drug Reaction, Eosinophilia, & Systemic Symptoms (DRESS) Syndrome- A Case Report')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Stony Brook Research Day')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Bilateral Reduction Mammaplasty Facilitates Subsequent Weight Loss in Obese Patients (BMI ≥30)')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Northeastern Society of Plastic Surgeons (NESPS)- 35th Annual Meeting')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Publisher', 'European Plastic Surgery Research Council- 10th Annual Meeting')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Does Bilateral Breast Reduction Surgery Actually Facilitate Subsequent Weight Loss?')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', \"American College of Surgeons' (ACS) Brooklyn and Long Island Chapters and Nassau Surgical Society (NSS)- Annual Clinic Day\")",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Hernia-Related Mesh Infection: When Does It Happen and Who Gets It?')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', \"American College of Surgeons' (ACS) National Clinical Congress\")",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Publisher', 'American College of Surgeons’ (ACS) Eastern Long Island Chapter Dinner')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Cosmetic Neurotoxin Injection')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'Operative Dictations in Plastic and Reconstructive Surgery')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Trigger Thumb Release and Tenosynovectomy')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Prelamination of Radial Forearm Flap Neourethra with Buccal Mucosa and Skin Graft for Phalloplasty')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'National Transgender Health Summit')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('OtherPublication', 'Investigation of the differentiation potential of bone marrow stem cells on a novel aligned collagen tubular scaffold')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Publisher', 'North Carolina Tissue Engineering and Regenerative Medicine Society (NCTERMS)- 13th Annual Conference')",
+      "label": "Publisher",
+      "type": "Publisher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-0740-4182')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-2674-9234')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'Real-time tracking of complex ubiquitination cascades using a fluorescent confocal on-bead assay')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Crystal structure of human cgi121')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'D domain of b-TrCP')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Focal adhesion kinase 1')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('Researcher', '0000-0002-2739-0868')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-8824-2183')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-2149-3564')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-9550-5869')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-4016-8492')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-0216-3829')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-8161-6525')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-8389-9522')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-8421-4465')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-9698-0389')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-2418-5156')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-2484-7252')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0001-5037-0147')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0003-2546-7427')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('Researcher', '0000-0002-7766-744X')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('OtherPublication', 'Small cationic cysteine-rich defensin-derived antifungal peptide controls white mold in soybean')",
+      "label": "OtherPublication",
+      "type": "OtherPublication"
+    },
+    {
+      "id": "('OtherPublication', 'Unbiased proteomic and forward genetic screens reveal that mechanosensitive ion channel MSL10 functions at ER-plasma membrane contact sites in Arabidopsis thaliana')",
+      "label": "OtherPublication",

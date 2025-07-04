@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {
+      "id": "('Researcher', '0000-0003-0427-0369')",
+      "label": "Researcher",
+      "type": "Researcher"
+    },
+    {
+      "id": "('BookPublication', 'The role of complement dysregulation in AMD mouse models')",
+      "label": "BookPublication",
+      "type": "BookPublication"
+    }
+  ],
+  "links": [
+    {
+      "source": "('Researcher', '0000-0003-0427-0369')",
+      "target": "('BookPublication', 'The role of complement dysregulation in AMD mouse models')",
+      "label": "AUTHORED"
+    }
+  ]
+}
