@@ -8,7 +8,7 @@ const json = parser.parse(xml);
 const graph = json.graphml.graph;
 
 // Helper to normalize node/edge arrays
-function toArray(x) {
+function toArray(x: any) {
   if (!x) return [];
   return Array.isArray(x) ? x : [x];
 }
