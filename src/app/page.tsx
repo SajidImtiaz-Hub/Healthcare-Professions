@@ -1,55 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { NetworkGraph } from "./NetworkGraph";
-
-function getSubgraph(graphData: any, selectedId: string) {
-  if (!graphData || !graphData.nodes || !graphData.links || !selectedId) return { nodes: [], links: [] };
-  const selectedNode = graphData.nodes.find((n: any) => n.id === selectedId);
-  if (!selectedNode) return { nodes: [], links: [] };
-
-  // 1-hop neighbors
-  const directLinks = graphData.links.filter((l: any) => l.source === selectedId || l.target === selectedId);
-  const neighborIds = new Set([
-    ...directLinks.map((l: any) => l.source),
-    ...directLinks.map((l: any) => l.target)
-  ]);
-  neighborIds.delete(selectedId);
-
-  // 2-hop neighbors (via any path)
-  const twoHopLinks = graphData.links.filter((l: any) => neighborIds.has(l.source) || neighborIds.has(l.target));
-  const twoHopNeighborIds = new Set([
-    ...twoHopLinks.map((l: any) => l.source),
-    ...twoHopLinks.map((l: any) => l.target)
-  ]);
-  twoHopNeighborIds.delete(selectedId);
-
-  // All researcher ids within 2 hops
-  const allResearcherIds = new Set([
-    selectedId,
-    ...[...neighborIds, ...twoHopNeighborIds].filter((id: any) => {
-      const node = graphData.nodes.find((n: any) => n.id === id);
-      return node && node.type === 'Researcher';
-    })
-  ]);
-
-  // Collect all links that connect any two of these researchers (direct or via a path node)
-  const relevantLinks = graphData.links.filter((l: any) =>
-    (allResearcherIds.has(l.source) && allResearcherIds.has(l.target)) ||
-    (allResearcherIds.has(l.source) && !allResearcherIds.has(l.target)) ||
-    (allResearcherIds.has(l.target) && !allResearcherIds.has(l.source))
-  );
-
-  // Collect all nodes on these links
-  const relevantNodeIds = new Set([
-    ...Array.from(allResearcherIds),
-    ...relevantLinks.map((l: any) => l.source),
-    ...relevantLinks.map((l: any) => l.target)
-  ]);
-  const nodes = graphData.nodes.filter((n: any) => relevantNodeIds.has(n.id));
-  const links = relevantLinks;
-
-  return { nodes, links };
-}
+import { getSubgraph } from '../utils/graphUtils';
+import { ProfileCard } from "../components/ProfileCard";
+import { SearchBar } from "../components/SearchBar";
+import { Tooltip } from "../components/Tooltip";
 
 export default function Home() {
   const [graphData, setGraphData] = useState<any>(null);
@@ -124,12 +79,7 @@ export default function Home() {
 
   // Only show subgraph for selected node (never hovered node)
   const { nodes, links } = getSubgraph(graphData, selectedId);
-  const selectedNode = nodes.find((n: any) => n.id === selectedId);
-
-  // Debug: log both IDs on every render
-  useEffect(() => {
-    console.log(`[DEBUG] RENDER: selectedId=`, selectedId, 'hoveredNodeId=', hoveredNodeId);
-  }, [selectedId, hoveredNodeId]);
+  const selectedNode = nodes.find((n: any) => n.id === selectedId) || null;
 
   // Publications, education, work for selected/hovered node
   function getNodeDetails(node: any) {
@@ -175,46 +125,47 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full bg-[#f7f8fa] flex flex-col">
       {/* Header */}
-      <header className="w-full bg-white shadow-sm rounded-b-3xl px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-0 z-20">
-        <div className="flex items-center gap-4 w-full md:w-auto">
-          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emily Carter" className="w-16 h-16 rounded-full object-cover border-4 border-blue-200" />
+      <header className="w-full bg-white shadow-sm rounded-2xl px-8 py-4 flex items-center justify-between gap-4 mt-4 mb-4">
+        {/* Left: Profile */}
+        <div className="flex items-center gap-4">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Carter" className="w-12 h-12 rounded-full object-cover border-2 border-blue-200" />
           <div>
-            <div className="font-bold text-lg text-gray-900">Emily Carter</div>
-            <div className="text-gray-500 text-sm">Cardiologist at NHOG</div>
+            <div className="font-bold text-lg text-gray-900">John Carter</div>
+            <div className="text-gray-500 text-xs">Cardiologist at NHOG</div>
           </div>
         </div>
-        <div className="flex items-center gap-8 w-full md:w-auto justify-between md:justify-center">
+        {/* Center: Stats and Button */}
+        <div className="flex items-center gap-6">
           <div className="flex gap-6">
             <div className="text-center">
-              <div className="text-xs text-gray-400">My Peers</div>
-              <div className="font-bold text-blue-900 text-lg">232</div>
+              <div className="text-xs text-gray-400">My Peers <span className="font-bold text-blue-900 text-base ml-1">232</span></div>
             </div>
             <div className="text-center">
-              <div className="text-xs text-gray-400">Following</div>
-              <div className="font-bold text-blue-900 text-lg">124</div>
+              <div className="text-xs text-gray-400">Following <span className="font-bold text-blue-900 text-base ml-1">124</span></div>
             </div>
           </div>
           <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-full shadow transition">Create web</button>
         </div>
-        <div className="flex items-center gap-4 w-full md:w-auto justify-end">
+        {/* Right: Toggles */}
+        <div className="flex items-center gap-4 bg-gray-50 rounded-xl px-4 py-2">
           <div className="flex items-center gap-2">
-            <span className="text-xs text-gray-500">Show connections</span>
-            <input type="checkbox" className="toggle toggle-sm" />
+            <input type="checkbox" className="toggle toggle-sm" id="show-connections" />
+            <label htmlFor="show-connections" className="text-xs text-gray-500 cursor-pointer">Show connections</label>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-xs text-gray-500">Show my connections on map</span>
-            <input type="checkbox" className="toggle toggle-sm" checked readOnly />
+            <input type="checkbox" className="toggle toggle-sm" id="show-map" checked readOnly />
+            <label htmlFor="show-map" className="text-xs text-gray-500 cursor-pointer">Show my connections on map</label>
           </div>
         </div>
       </header>
       {/* Search and Filter Bar */}
-      <div className="w-full flex items-center justify-between px-8 py-4 gap-4 bg-transparent">
-        <form className="flex-1 flex items-center bg-white rounded-full shadow px-4 py-2 max-w-2xl">
+      <div className="w-full flex flex-col items-center px-8 mb-6">
+        <div className="w-full max-w-4xl flex items-center bg-white rounded-full shadow px-4 py-2 gap-2">
           <svg className="w-5 h-5 text-gray-400 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
           <input
             type="text"
-            placeholder="Search by name"
-            className="flex-1 bg-transparent outline-none text-gray-700"
+            placeholder="Search"
+            className="flex-1 bg-transparent outline-none text-gray-700 text-sm"
             value={search}
             onChange={e => setSearch(e.target.value)}
             onKeyDown={e => {
@@ -224,70 +175,25 @@ export default function Home() {
               }
             }}
           />
-          <button
-            type="button"
-            onClick={handleSearch}
-            className="ml-2 text-blue-600 font-semibold"
-          >
-            Search
-          </button>
           {search && (
             <button type="button" className="ml-2 text-gray-400 hover:text-blue-600" onClick={handleClear} title="Clear search">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" /></svg>
             </button>
           )}
-        </form>
-        <div className="relative flex items-center gap-2">
-          <button className="bg-white rounded-full shadow px-4 py-2 text-gray-500 font-medium flex items-center gap-2 border border-gray-100">
+          <button className="flex items-center gap-2 bg-gray-100 text-gray-500 font-medium px-4 py-2 rounded-full border border-gray-100 hover:bg-gray-200 transition">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" /></svg>
-            Filter
+            <span className="text-sm">Filter</span>
             <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7" /></svg>
           </button>
         </div>
+        {searchError && <div className="text-red-500 text-xs text-center mt-1">{searchError}</div>}
       </div>
-      {searchError && <div className="text-red-500 text-sm text-center mb-2">{searchError}</div>}
       {/* Main Content */}
       <main className="flex-1 flex flex-col lg:flex-row gap-6 px-8 pb-8">
         {/* Profile Card */}
-        <section className="w-full lg:w-1/3 xl:w-1/4 bg-white rounded-3xl shadow-xl p-8 flex flex-col items-center mb-6 lg:mb-0">
-          <div className="w-full flex flex-col items-center">
-            <div className="relative w-32 h-32 mb-4">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt={selectedNode?.name || 'Profile'} className="w-32 h-32 rounded-full border-4 border-blue-200 shadow object-cover" />
-            </div>
-            <div className="text-2xl font-bold text-blue-900 mb-1">{selectedNode?.name || selectedNode?.label}</div>
-            <div className="inline-block bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full mb-2">{selectedNode?.type}</div>
-            {/* Education */}
-            <div className="w-full mt-2">
-              <div className="font-semibold text-gray-700 mb-1">Education</div>
-              {nodeDetails.education.length > 0 ? nodeDetails.education.map((edu: any, i: number) => (
-                <div key={i} className="bg-blue-50 rounded-xl p-3 mb-2 flex flex-col">
-                  <div className="font-bold text-blue-800 text-sm">{edu.degree || edu.school || edu}</div>
-                  <div className="text-xs text-gray-500">{edu.period || edu.field || ''}</div>
-                </div>
-              )) : <div className="text-xs text-gray-400">No education data</div>}
-            </div>
-            {/* Work */}
-            <div className="w-full mt-2">
-              <div className="font-semibold text-gray-700 mb-1">Work Experience</div>
-              {nodeDetails.work.length > 0 ? nodeDetails.work.map((job: any, i: number) => (
-                <div key={i} className="bg-blue-50 rounded-xl p-3 mb-2 flex flex-col">
-                  <div className="font-bold text-blue-800 text-sm">{job.title || job.organization || job}</div>
-                  <div className="text-xs text-gray-500">{job.period || ''}</div>
-                </div>
-              )) : <div className="text-xs text-gray-400">No work data</div>}
-            </div>
-            {/* Publications */}
-            <div className="w-full mt-2">
-              <div className="font-semibold text-gray-700 mb-1">Publications</div>
-              {nodeDetails.publications.length > 0 ? nodeDetails.publications.map((pub: any, i: number) => (
-                <div key={i} className="bg-blue-50 rounded-xl p-3 mb-2 flex flex-col">
-                  <div className="font-bold text-blue-800 text-sm">{pub.title || pub.id || pub}</div>
-                  <div className="text-xs text-gray-500">{pub.year || pub.type || ''}</div>
-                </div>
-              )) : <div className="text-xs text-gray-400">No publications</div>}
-            </div>
-          </div>
-        </section>
+        <div className="w-full lg:w-1/3 xl:w-1/4 flex flex-col items-center mb-6 lg:mb-0">
+          <ProfileCard node={selectedNode} />
+        </div>
         {/* Graph Area */}
         <section className="flex-1 bg-white rounded-3xl shadow-xl p-6 relative min-h-[600px] flex flex-col">
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-blue-50 via-white to-blue-100 opacity-60 pointer-events-none" />
@@ -347,19 +253,12 @@ export default function Home() {
             )}
             {/* Tooltip for hovered node */}
             {hoveredNodeId && hoveredNodeTooltip && (
-              <div
-                style={{
-                  position: 'absolute',
-                  left: hoveredNodeTooltip.x + 20,
-                  top: hoveredNodeTooltip.y - 10,
-                  pointerEvents: 'none',
-                  zIndex: 100
-                }}
-                className="bg-white border border-blue-200 rounded px-3 py-1 text-xs text-blue-800 shadow"
-              >
-                <div className="font-bold">{hoveredNodeTooltip.name}</div>
-                <div>{hoveredNodeTooltip.label}</div>
-              </div>
+              <Tooltip
+                x={hoveredNodeTooltip.x}
+                y={hoveredNodeTooltip.y}
+                name={hoveredNodeTooltip.name}
+                label={hoveredNodeTooltip.label}
+              />
             )}
           </div>
         </section>
